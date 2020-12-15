@@ -1,0 +1,20 @@
+
+#modifiedTable{
+  border-collapse: collapse;
+  width: 100%;
+}
+#modifiedTable td, #modifiedTable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#modifiedTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#modifiedTable tr:hover {background-color: #ddd;}
+
+#modifiedTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #8db4f2;
+  color: white;
+}
